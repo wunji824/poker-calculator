@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="manifest.json">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!-- Screen 1: Number of Players Selection -->
+    <div id="screen1">
+        <h2>How many players?</h2>
+        <select id="player-count">
+            <!-- Options will be added dynamically -->
+        </select>
+        <button id="next-button-1">Next</button>
+    </div>
+
+    <!-- Screen 2: Player Name Selection -->
+    <div id="screen2" style="display: none;">
+        <h2>Select Players</h2>
+        <div id="player-buttons">
+            <!-- Player buttons will be added dynamically -->
+        </div>
+        <button id="next-button-2" disabled>Next</button>
+    </div>
+
+    <!-- Screen 3: Player Details Input (Initially hidden) -->
+    <div id="screen3" style="display: none;">
+        <h2>Poker Calculator</h2>
+        <form id="poker-form">
+            <!-- Player input fields will be added dynamically -->
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
+
