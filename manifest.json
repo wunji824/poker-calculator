@@ -1,7 +1,7 @@
 {
     "name": "Poker Calculator",
     "short_name": "PokerCalc",
-    "start_url": "/index.html",
+    "start_url": "/poker-calculator_pwa/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#28a745",
@@ -16,6 +16,6 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ]
+    ],
+    "scope": "/poker-calculator_pwa/"
 }
-
